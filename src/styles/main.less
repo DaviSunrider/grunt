@@ -1,0 +1,62 @@
+@fontPrincipal: Ubuntu, sans sefifa;
+@fontTitle: Roboto, sans serifa;
+@corTxt: #fff;
+@corTxt2: #000;
+@corBG: #ff5e57;
+@corBT: #575fcf;
+
+body {
+  background-color: @corBG;
+  font-family: @fontPrincipal;
+  color: #fff;
+}
+
+h1 {
+  font-family: @fontTitle;
+  color: #fff;
+  font-size: 3em;
+}
+
+main {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 2em;
+  text-align: center;
+}
+
+button{
+  font-family: @fontPrincipal;
+  padding: 16px 52px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-top: 16px;
+  border-radius: 8px;
+  background-color: #575fcf;
+  color: @corTxt;
+}
+
+input {
+  display: block;
+  margin: 16px auto 0;
+  font-size: 2em;
+  max-width: 420px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  color: @corTxt2;
+}
+
+.resultado {
+  padding: 16px;
+  margin-top: 120px;
+  border: 10px;
+  display: none;
+
+  span {
+    font-weight: bold;
+    font-size: 3em;
+    display: block;
+  }
+}
